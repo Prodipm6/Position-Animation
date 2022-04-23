@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 10PX;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+h2{
+    text-align: center;
+    color: cyan;
+    margin: 0 0 100px;
+}
+
+
+/*------------Animation Part Start----------------*/
+
+h3{
+    text-align: center;
+    margin: 100px;
+    padding: 20px;
+    font-size: 60px;
+    color: darkorchid;
+}
+@keyframes mine{
+    0%{
+        background-color: rgb(230, 11, 11);
+    }
+    100%{
+        background-color: chartreuse;
+    }
+}
+
+.box1{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: darkgoldenrod;
+    position: relative;
+    animation-name: mine;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes for{
+    0%{
+        background-color: darkblue;
+    }
+    100%{
+        background-color: crimson;
+    }
+}
+.a1{
+    width: 100px;
+    height: 100px;
+    background-color: darkorchid;
+    position: absolute;
+    left: -42px;
+    top: -45px;
+    animation-name: for;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes i{
+    0%{
+        background-color: green;
+    }
+    100%{
+        background-color: darkgoldenrod;
+    }
+}
+.a2{
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    position: absolute;
+    right: 193px;
+    top: -45px;
+    animation-name: i;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes me{
+    0%{
+        background-color: gold;
+    }
+    100%{
+        background-color: mediumslateblue;
+    }
+}
+.a3{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    position: absolute;
+    right: -57px;
+    top: -45px;
+    animation-name: me;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes you{
+    0%{
+        background-color: rgb(18, 202, 18);
+    }
+    100%{
+        background-color: rgb(221, 18, 177);
+    }
+}
+.a4{
+    width: 100px;
+    height: 100px;
+    background-color: springgreen;
+    position: absolute;
+    right: -57px;
+    top: 186px;
+    animation-name: you;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes am{
+    0%{
+        background-color: rgb(13, 130, 207);
+    }
+    100%{
+        background-color: rgb(36, 2, 8);
+    }
+}
+.a5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 13, 197);
+    position: absolute;
+    right: -57px;
+    bottom: -45px;
+    animation-name: am;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes he{
+    0%{
+        background-color: rgb(206, 228, 11);
+    }
+    100%{
+        background-color: rgb(230, 11, 11);
+    }
+}
+.a6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(90, 11, 165);
+    position: absolute;
+    right: 193px;
+    bottom: -45px;
+    animation-name: he;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes she{
+    0%{
+        background-color: rgb(239, 240, 232);
+    }
+    100%{
+        background-color: rgb(14, 12, 12);
+    }
+}
+.a7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(155, 19, 53);
+    position: absolute;
+    left: -42px;
+    bottom: -45px;
+    animation-name: she;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes him{
+    0%{
+        background-color: tomato;
+    }
+    100%{
+        background-color: yellowgreen;
+    }
+}
+.a8{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(182, 199, 25);
+    position: absolute;
+    left: -57px;
+    top: 186px;
+    animation-name: him;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes her{
+    0%{
+        background-color: blue;
+        width: 50px;
+    }
+    100%{
+        background-color: rgb(209, 12, 150);
+        width: 200px;
+    }
+}
+.a9{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(192, 11, 26);
+    position: absolute;
+    right: 152px;
+    top: 147px;
+    animation-name: her;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+/*------------Animation Part End----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
